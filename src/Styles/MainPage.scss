@@ -1,0 +1,20 @@
+@import "../Variables/Variables.sass";
+
+
+.mainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color: $redColor;
+    }
+    button{
+        @include buttonStyle($redColor, 35px);
+    }
+}
+
+
+button{
+    @include buttonStyle(purple, 25px);
+}
